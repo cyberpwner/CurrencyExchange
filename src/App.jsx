@@ -50,7 +50,10 @@ function App() {
   return (
     <main
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: 'url(../src/assets/beach.jpg)' }}
+      style={{
+        backgroundImage:
+          'url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
+      }}
     >
       <form ref={formRef} onSubmit={handleSubmit} className="grid grid-cols-1">
         <InputBox
